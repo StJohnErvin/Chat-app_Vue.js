@@ -1,6 +1,6 @@
 <template>
-    <div>
-       <h1>this is a Footer</h1> 
+    <div class="site-footer">
+       <van-field v-model="value" placeholder="Text" />
     </div>
 </template>
 <script>
@@ -17,5 +17,10 @@ export default {
 }
 </script>
 <style scoped>
-
+    .site-footer{
+        padding: 24px 0 24px;
+        width: 100vw;
+        height: auto;
+        background-color: #075E54;
+    }
 </style>
